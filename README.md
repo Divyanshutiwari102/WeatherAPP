@@ -1,5 +1,7 @@
 🌦️ Weather Forecast Web Application (Full Stack)
+
 ✨ Features![Uploading Screenshot 2026-02-08 145007.png…]()
+
 A full-stack Weather Forecast application built with React (Vite) on the frontend and Java Spring Boot on the backend.
 The app provides real-time weather data and multi-day forecasts with a clean dark UI and smooth animations.
 
