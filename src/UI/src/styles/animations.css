@@ -1,0 +1,61 @@
+/* ===== PAGE FADE IN ===== */
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== SUN GLOW (CARD ONLY) ===== */
+.sun-glow {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90px;
+  height: 90px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 200, 80, 0.35),
+    rgba(255, 200, 80, 0.15),
+    transparent 70%
+  );
+  filter: blur(8px);
+  animation: sunPulse 4s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes sunPulse {
+  0% { opacity: 0.25; transform: translateY(-50%) scale(1); }
+  50% { opacity: 0.45; transform: translateY(-50%) scale(1.05); }
+  100% { opacity: 0.25; transform: translateY(-50%) scale(1); }
+}
+
+
+/* ===== SEARCH BUTTON ===== */
+.search-btn {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+}
+
+.search-btn:active {
+  transform: scale(0.95);
+}
+.card-glow {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+}
