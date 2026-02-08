@@ -1,5 +1,10 @@
 🌦️ Weather Forecast Web Application (Full Stack)
 
+## 📸 Application Preview
+
+<p align="center">
+  <img src="weather-ui.png" alt="Weather App UI" width="900"/>
+</p>
 
 
 A full-stack Weather Forecast application built with React (Vite) on the frontend and Java Spring Boot on the backend.
