@@ -175,7 +175,7 @@ Google-style minimal layout
 
 👨‍💻 Author
 
-Divyanshu Tiwari
+Divyanshu Tiwari:
 Full-Stack Developer (Java + React)
 
 📜 License
